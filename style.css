@@ -1,0 +1,109 @@
+body {
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: hsl(30, 54%, 90%);
+  font-weight: 400;
+}
+body section {
+  border-radius: 24px;
+  width: 630px;
+  margin: 48px auto;
+  background-color: white;
+  color: hsl(24, 5%, 18%);
+  padding: 36px;
+}
+body section #workouts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+body section #workouts .exerciseArea h3,
+body section #workouts .exerciseArea h4 {
+  text-align: center;
+}
+body section img,
+body section #preparation {
+  border-radius: 18px;
+}
+body section #image img {
+  width: 100%;
+}
+body section #meat hr {
+  color: hsl(30, 10%, 34%);
+  background-color: hsl(30, 10%, 34%);
+}
+body section #meat h1,
+body section #meat h2 {
+  font-family: "Young Serif", serif;
+}
+body section #meat h2 {
+  color: hsl(14, 45%, 36%);
+}
+body section #meat h1 {
+  font-size: 2.5em;
+  margin: 16px 0;
+}
+body section #meat h3 {
+  color: hsl(14, 45%, 36%);
+}
+body section #meat #preparation {
+  background-color: hsl(330, 100%, 98%);
+  padding: 24px;
+}
+body section #meat #preparation h3 {
+  color: hsl(332, 51%, 32%);
+  margin: 0;
+}
+body section #meat #preparation ul {
+  padding: 0 20px;
+  margin-bottom: 0;
+}
+body section #meat #preparation ul li {
+  padding: 5px;
+}
+body section #meat #plan ul {
+  padding: 0 20px;
+}
+body section #meat #plan ul li {
+  padding: 5px;
+}
+body section #meat #diet ol {
+  padding: 0 20px;
+  font-weight: 600;
+}
+body section #meat #diet ol li {
+  padding: 0;
+}
+body section #meat #diet ol li {
+  color: hsl(14, 45%, 36%);
+}
+body section #meat #diet ol li p {
+  color: hsl(24, 5%, 18%);
+  font-weight: 400;
+}
+body section #meat #diet ol li p strong {
+  font-weight: 600;
+}
+@media only screen and (max-width: 500px) {
+  body section {
+    margin: 0;
+    border-radius: 0;
+    width: 100%;
+    padding: 0;
+  }
+  body section #meat {
+    padding: 30px;
+  }
+  body section #meat h1 {
+    font-size: 1.9em;
+  }
+  body section #meat #preparation ul,
+  body section #meat #plan ul {
+    padding: 0 0 0 20px;
+  }
+  body section #meat #diet ol {
+    padding: 0 0 0 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
